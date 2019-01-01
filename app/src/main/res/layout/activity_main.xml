@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="name"
+        />
+
+    <EditText
+        android:layout_marginBottom="13dp"
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="email"
+        />
+
+    <EditText
+        android:hint="Phone"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:hint="username"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:hint="password"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/insert"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:onClick="Inserdata"
+        />
+</LinearLayout>
